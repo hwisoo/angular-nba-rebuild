@@ -1,4 +1,5 @@
-<ul>
-  <li *ngFor="let team of allTeams"><img class="logo" src='../../assets/{{team.img}}.svg'><a>{{team.city}}
+<ul class="col">
+  <li *ngFor="let team of allTeams" (click)="setSelectedTeam(team)"><img class="logo" src='../../assets/{{team.img}}.svg'><a
+      href='#'>{{team.city}}
       {{team.name}}</a> </li>
 </ul>

@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 import { PlayerComponent } from './player/player.component';
+import { TeamdetailComponent } from './teamdetail/teamdetail.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PlayerComponent } from './player/player.component';
     HeaderComponent,
     HomeComponent,
     TeamComponent,
-    PlayerComponent
+    PlayerComponent,
+    TeamdetailComponent
   ],
   imports: [
     BrowserModule

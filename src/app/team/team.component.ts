@@ -9,6 +9,7 @@ import { TEAMS } from '../shared/teams';
 })
 export class TeamComponent implements OnInit {
 
+  selectedTeam = null;
   constructor() { }
 
   ngOnInit() {
@@ -16,5 +17,7 @@ export class TeamComponent implements OnInit {
   }
   allTeams: Team[] = TEAMS;
 
-
+  setSelectedTeam(team) {
+    this.selectedTeam = team;
+  }
 }
