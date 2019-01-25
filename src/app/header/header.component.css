@@ -1,4 +1,6 @@
 .navbar {
+  box-sizing: border-box;
+  height: 54px;
   width: 100vw;
   font-size: 1em;
   display: flex;
@@ -10,8 +12,13 @@
 }
 
 .navbar a {
+  height: auto;
   box-sizing: border-box;
   line-height: inherit;
   text-decoration: none;
   color: #fff;
+}
+
+li {
+  display: inline-block;
 }
