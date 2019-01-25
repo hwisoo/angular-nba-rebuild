@@ -4,6 +4,7 @@ import { v } from '@angular/core/src/render3';
 export const TEAMS: Team[] = [
   {
     id: 0,
+    img: 'ATL',
     city: 'Atlanta',
     name: 'Hawks',
     ppg: 109.9,
@@ -16,6 +17,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 1,
+    img: 'BOS',
     city: 'Boston',
     name: 'Celtics',
     ppg: 112.2,
@@ -28,6 +30,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 2,
+    img: 'BKN',
     city: 'Brooklyn',
     name: 'Nets',
     ppg: 111.8,
@@ -40,6 +43,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 3,
+    img: 'CHA',
     city: 'Charlotte',
     name: 'Hornets',
     ppg: 112.3,
@@ -52,6 +56,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 4,
+    img: 'CHI',
     city: 'Chicago',
     name: 'Bulls',
     ppg: 101.1,
@@ -64,6 +69,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 5,
+    img: 'CLE',
     city: 'Cleveland',
     name: 'Cavaliers',
     ppg: 102.5,
@@ -76,6 +82,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 6,
+    img: 'DAL',
     city: 'Dallas',
     name: 'Mavericks',
     ppg: 109.4,
@@ -88,6 +95,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 7,
+    img: 'DEN',
     city: 'Denver',
     name: 'Nuggets',
     ppg: 111.2,
@@ -100,6 +108,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 8,
+    img: 'DET',
     city: 'Detroit',
     name: 'Pistons',
     ppg: 106.0,
@@ -112,6 +121,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 9,
+    img: 'GSW',
     city: 'Golden State',
     name: 'Warriors',
     ppg: 118.9,
@@ -124,6 +134,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 10,
+    img: 'HOU',
     city: 'Houston',
     name: 'Rockets',
     ppg: 112.2,
@@ -136,6 +147,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 11,
+    img: 'IND',
     city: 'Indiana',
     name: 'Pacers',
     ppg: 109.0,
@@ -148,6 +160,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 12,
+    img: 'LAC',
     city: 'LA',
     name: 'Clippers',
     ppg: 114.1,
@@ -160,6 +173,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 13,
+    img: 'LAL',
     city: 'Los Angeles',
     name: 'Lakers',
     ppg: 112.2,
@@ -172,6 +186,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 14,
+    img: 'MEM',
     city: 'Memphis',
     name: 'Grizzlies',
     ppg: 100.8,
@@ -184,6 +199,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 15,
+    img: 'MIA',
     city: 'Miami',
     name: 'Heat',
     ppg: 105.8,
@@ -196,6 +212,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 16,
+    img: 'MIL',
     city: 'Milwaukee',
     name: 'Bucks',
     ppg: 117.6,
@@ -208,6 +225,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 17,
+    img: 'MIN',
     city: 'Minnesota',
     name: 'Timberwolves',
     ppg: 111.9,
@@ -220,6 +238,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 18,
+    img: 'NOP',
     city: 'New Orleans',
     name: 'Pelicans',
     ppg: 116.7,
@@ -232,6 +251,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 19,
+    img: 'NYK',
     city: 'New York',
     name: 'Knicks',
     ppg: 107.2,
@@ -244,6 +264,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 20,
+    img: 'OKC',
     city: 'Oklahoma City',
     name: 'Thunder',
     ppg: 114.2,
@@ -256,6 +277,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 21,
+    img: 'ORL',
     city: 'Orlando',
     name: 'Magic',
     ppg: 104.4,
@@ -268,6 +290,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 22,
+    img: 'PHI',
     city: 'Philadelphia',
     name: '76ers',
     ppg: 115.7,
@@ -280,6 +303,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 23,
+    img: 'PHX',
     city: 'Phoenix',
     name: 'Suns',
     ppg: 106.0,
@@ -292,6 +316,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 24,
+    img: 'POR',
     city: 'Portland',
     name: 'Trail Blazers',
     ppg: 112.6,
@@ -304,6 +329,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 25,
+    img: 'SAC',
     city: 'Sacramento',
     name: 'Kings',
     ppg: 113.4,
@@ -316,6 +342,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 26,
+    img: 'SAS',
     city: 'San Antonio',
     name: 'Spurs',
     ppg: 111.6,
@@ -328,6 +355,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 27,
+    img: 'TOR',
     city: 'Toronto',
     name: 'Raptors',
     ppg: 113.8,
@@ -340,6 +368,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 28,
+    img: 'UTA',
     city: 'Utah',
     name: 'Jazz',
     ppg: 108.4,
@@ -352,6 +381,7 @@ export const TEAMS: Team[] = [
   },
   {
     id: 29,
+    img: 'WAS',
     city: 'Washington',
     name: 'Wizards',
     ppg: 113.1,

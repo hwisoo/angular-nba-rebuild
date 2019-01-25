@@ -1,3 +1,4 @@
-<ol>
-  <li *ngFor="let team of allTeams">{{team.city}} {{team.name}}</li>
-</ol>
+<ul>
+  <li *ngFor="let team of allTeams"><img class="logo" src='../../assets/{{team.img}}.svg'><a>{{team.city}}
+      {{team.name}}</a> </li>
+</ul>
