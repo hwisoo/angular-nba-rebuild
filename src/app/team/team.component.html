@@ -1,5 +1,44 @@
-<ul class="col">
-  <li *ngFor="let team of allTeams" (click)="setSelectedTeam(team)"><img class="logo" src='../../assets/{{team.img}}.svg'><a
-      href='#'>{{team.city}}
-      {{team.name}}</a> </li>
-</ul>
+<div class="container">
+
+  <div class="row">
+
+    <ul class="col">
+      <li *ngFor="let team of allTeams" (click)="setSelectedTeam(team)"><img class="logo" src='../../assets/{{team.img}}.svg'><a
+          href='#'>{{team.city}}
+          {{team.name}}
+          <hr></a>
+      </li>
+
+    </ul>
+
+    <div class="col col-md-7">
+      <div class="row">
+        <img class="col col-md-3" src='../../assets/{{selectedTeam.img}}.svg'>
+        <div class="col col-md-7">
+          <h1>{{selectedTeam.city}}<br> {{selectedTeam.name}}</h1>
+        </div>
+      </div>
+
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">PPG</th>
+            <th scope="col">OPPG</th>
+            <th scope="col">RPG</th>
+            <th scope="col">APG</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{selectedTeam.ppg}}</td>
+            <td>{{selectedTeam.oppg}}</td>
+            <td>{{selectedTeam.rpg}}</td>
+            <td>{{selectedTeam.apg}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+  </div>
+</div>

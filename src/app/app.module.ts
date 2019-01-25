@@ -9,6 +9,8 @@ import { TeamComponent } from './team/team.component';
 import { PlayerComponent } from './player/player.component';
 import { TeamdetailComponent } from './teamdetail/teamdetail.component';
 
+import { DataService } from './data.service';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { TeamdetailComponent } from './teamdetail/teamdetail.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

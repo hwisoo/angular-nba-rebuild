@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { TeamComponent } from '../team/team.component';
+import { Team } from '../models/team.model';
 
 @Component({
   selector: 'team-detail',
@@ -11,5 +13,5 @@ export class TeamdetailComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  @Input() selectedTeam;
 }
