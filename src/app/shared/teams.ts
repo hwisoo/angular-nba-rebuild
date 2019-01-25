@@ -1,4 +1,5 @@
 import { Team } from '../models/team.model';
+import { v } from '@angular/core/src/render3';
 
 export const TEAMS: Team[] = [
   {
@@ -33,18 +34,6 @@ export const TEAMS: Team[] = [
     oppg: 111.6,
     rpg: 45.9,
     apg: 23.5,
-    players: [
-      {}
-    ]
-  },
-  {
-    id: 3,
-    city: 'Charlotte',
-    name: 'Hornets',
-    ppg: 112.3,
-    oppg: 111.6,
-    rpg: 44.6,
-    apg: 23.8,
     players: [
       {}
     ]
@@ -194,18 +183,6 @@ export const TEAMS: Team[] = [
     ]
   },
   {
-    id: 14,
-    city: 'Memphis',
-    name: 'Grizzlies',
-    ppg: 100.8,
-    oppg: 104.2,
-    rpg: 39.9,
-    apg: 23.5,
-    players: [
-      {}
-    ]
-  },
-  {
     id: 15,
     city: 'Miami',
     name: 'Heat',
@@ -228,6 +205,161 @@ export const TEAMS: Team[] = [
     players: [
       {}
     ]
-  }
-
+  },
+  {
+    id: 17,
+    city: 'Minnesota',
+    name: 'Timberwolves',
+    ppg: 111.9,
+    oppg: 111.4,
+    rpg: 45.1,
+    apg: 24.5,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 18,
+    city: 'New Orleans',
+    name: 'Pelicans',
+    ppg: 116.7,
+    oppg: 114.9,
+    rpg: 46.8,
+    apg: 26.8,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 19,
+    city: 'New York',
+    name: 'Knicks',
+    ppg: 107.2,
+    oppg: 115.7,
+    rpg: 44.5,
+    apg: 19.8,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 20,
+    city: 'Oklahoma City',
+    name: 'Thunder',
+    ppg: 114.2,
+    oppg: 109.2,
+    rpg: 48.1,
+    apg: 23.1,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 21,
+    city: 'Orlando',
+    name: 'Magic',
+    ppg: 104.4,
+    oppg: 107.9,
+    rpg: 43.0,
+    apg: 24.5,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 22,
+    city: 'Philadelphia',
+    name: '76ers',
+    ppg: 115.7,
+    oppg: 111.9,
+    rpg: 47.6,
+    apg: 27.5,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 23,
+    city: 'Phoenix',
+    name: 'Suns',
+    ppg: 106.0,
+    oppg: 115.2,
+    rpg: 40.1,
+    apg: 23.8,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 24,
+    city: 'Portland',
+    name: 'Trail Blazers',
+    ppg: 112.6,
+    oppg: 110.1,
+    rpg: 48.2,
+    apg: 22.5,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 25,
+    city: 'Sacramento',
+    name: 'Kings',
+    ppg: 113.4,
+    oppg: 115.3,
+    rpg: 44.4,
+    apg: 25.9,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 26,
+    city: 'San Antonio',
+    name: 'Spurs',
+    ppg: 111.6,
+    oppg: 109.5,
+    rpg: 44.2,
+    apg: 24.7,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 27,
+    city: 'Toronto',
+    name: 'Raptors',
+    ppg: 113.8,
+    oppg: 108.2,
+    rpg: 45.0,
+    apg: 24.4,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 28,
+    city: 'Utah',
+    name: 'Jazz',
+    ppg: 108.4,
+    oppg: 105.1,
+    rpg: 45.2,
+    apg: 24.8,
+    players: [
+      {}
+    ]
+  },
+  {
+    id: 29,
+    city: 'Washington',
+    name: 'Wizards',
+    ppg: 113.1,
+    oppg: 116.0,
+    rpg: 41.1,
+    apg: 25.5,
+    players: [
+      {}
+    ]
+  },
 ]
