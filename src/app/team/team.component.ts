@@ -22,7 +22,6 @@ export class TeamComponent implements OnInit {
 
   setSelectedTeam(team) {
     this.selectedTeam = team;
-    console.table(team);
     return this.selectedTeam;
   }
 }

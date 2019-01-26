@@ -1,3 +1,5 @@
+import { Player } from './player.model';
+
 export class Team {
   public id: number;
   public img: string;

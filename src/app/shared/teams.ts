@@ -1,5 +1,9 @@
 import { Team } from '../models/team.model';
-import { v } from '@angular/core/src/render3';
+import { PLAYERS } from './players';
+import { Player } from '../models/player.model';
+
+let allplayers = PLAYERS;
+
 
 export const TEAMS: Team[] = [
   {
@@ -12,7 +16,12 @@ export const TEAMS: Team[] = [
     rpg: 45.7,
     apg: 25.6,
     players: [
-      {}
+      "Trae Young",
+      "Jeremy Lin",
+      "Vince Carter",
+      "Alex Len",
+      "Miles Plumlee"
+
     ]
   },
   {
@@ -25,7 +34,11 @@ export const TEAMS: Team[] = [
     rpg: 44.9,
     apg: 25.9,
     players: [
-      {}
+      "Kyrie Irving",
+      "Jaylen Brown",
+      "Jason Tatum",
+      "Gordon Hayward",
+      "Al Horford"
     ]
   },
   {
@@ -38,7 +51,11 @@ export const TEAMS: Team[] = [
     rpg: 45.9,
     apg: 23.5,
     players: [
-      {}
+      "D'Angelo Russell",
+      "Shabazz Napier",
+      "DeMarre Carroll",
+      "Rondae Hollis-Jefferson",
+      "Jarrett Allen"
     ]
   },
   {
@@ -51,7 +68,11 @@ export const TEAMS: Team[] = [
     rpg: 44.6,
     apg: 23.8,
     players: [
-      {}
+      "Kemba Walker",
+      "Jeremy Lamb",
+      "Michael Kidd-Gilchrist",
+      "Nicolas Batum",
+      "Bismack Biyombo"
     ]
   },
   {
@@ -64,7 +85,11 @@ export const TEAMS: Team[] = [
     rpg: 41.6,
     apg: 21.6,
     players: [
-      {}
+      "Zach Lavine",
+      "Kris Dunn",
+      "Carmelo Anthony",
+      "Jabari Parker",
+      "Robin Lopez"
     ]
   },
   {
@@ -77,7 +102,11 @@ export const TEAMS: Team[] = [
     rpg: 41.9,
     apg: 20.0,
     players: [
-      {}
+      "Collin Sexton",
+      "Jordan Clarkson",
+      "Cedi Osman",
+      "Tristan Thompson",
+      "Ante Zizic"
     ]
   },
   {
@@ -90,7 +119,11 @@ export const TEAMS: Team[] = [
     rpg: 46.0,
     apg: 22.5,
     players: [
-      {}
+      "J.J. Barea",
+      "Luka Doncic",
+      "Harrison Barnes",
+      "Dirk Nowitzki",
+      "DeAndre Jordan"
     ]
   },
   {
@@ -103,7 +136,11 @@ export const TEAMS: Team[] = [
     rpg: 46.7,
     apg: 27.3,
     players: [
-      {}
+      "Isaiah Thomas",
+      "Jamal Murray",
+      "Paul Millsap",
+      "Mason Plumlee",
+      "Nikola Jokic"
     ]
   },
   {
@@ -116,7 +153,11 @@ export const TEAMS: Team[] = [
     rpg: 45.6,
     apg: 22.0,
     players: [
-      {}
+      "Jose Calderon",
+      "Reggie Jackson",
+      "Blake Griffin",
+      "Glen Robinson III",
+      "Andre Drummond"
     ]
   },
   {
@@ -129,7 +170,11 @@ export const TEAMS: Team[] = [
     rpg: 46.6,
     apg: 29.2,
     players: [
-      {}
+      "Stephen Curry",
+      "Klay Thompson",
+      "Kevin Durant",
+      "Draymond Green",
+      "DeMarcus Cousins"
     ]
   },
   {
@@ -142,7 +187,11 @@ export const TEAMS: Team[] = [
     rpg: 42.0,
     apg: 20.8,
     players: [
-      {}
+      "Chris Paul",
+      "James Harden",
+      "PJ Tucker",
+      "Kenneth Faried",
+      "Clint Capela"
     ]
   },
   {
@@ -155,7 +204,11 @@ export const TEAMS: Team[] = [
     rpg: 43.9,
     apg: 26.0,
     players: [
-      {}
+      "Victor Oladipo",
+      "Darren Collison",
+      "Domantas Sabonis",
+      "Myles Turner",
+      "Kyle O'Quinn"
     ]
   },
   {
@@ -168,7 +221,11 @@ export const TEAMS: Team[] = [
     rpg: 45.3,
     apg: 22.7,
     players: [
-      {}
+      "Patrick Beverly",
+      "Lou Williams",
+      "Tobias Harris",
+      "Montrezl Harrell",
+      "Marcin Gortat"
     ]
   },
   {
@@ -181,7 +238,11 @@ export const TEAMS: Team[] = [
     rpg: 47.3,
     apg: 24.5,
     players: [
-      {}
+      "Lonzo Ball",
+      "Kyle Kuzma",
+      "Brandon Ingram",
+      "Lebron James",
+      "JaVale McGee"
     ]
   },
   {
@@ -194,7 +255,11 @@ export const TEAMS: Team[] = [
     rpg: 39.9,
     apg: 23.5,
     players: [
-      {}
+      "Mike Conley",
+      "Shelvin Mack",
+      "Chandler Parsons",
+      "JaMychal Green",
+      "Joakim Noah"
     ]
   },
   {
@@ -207,7 +272,11 @@ export const TEAMS: Team[] = [
     rpg: 46.6,
     apg: 23.8,
     players: [
-      {}
+      "Dwayne Wade",
+      "Goran Dragic",
+      "Udonis Haslem",
+      "Kelly Olynik",
+      "Hassan Whiteside"
     ]
   },
   {
@@ -220,7 +289,11 @@ export const TEAMS: Team[] = [
     rpg: 49.1,
     apg: 26.5,
     players: [
-      {}
+      "Eic Bledsoe",
+      "Malcolm Brogdon",
+      "Giannis Antetokounpo",
+      "Khris Middleton",
+      "Brook Lopez"
     ]
   },
   {
@@ -233,7 +306,11 @@ export const TEAMS: Team[] = [
     rpg: 45.1,
     apg: 24.5,
     players: [
-      {}
+      "Derrick Rose",
+      "Jeff Teague",
+      "Andrew Wiggins",
+      "Taj Gibson",
+      "Karl-Anthony Towns"
     ]
   },
   {
@@ -246,7 +323,11 @@ export const TEAMS: Team[] = [
     rpg: 46.8,
     apg: 26.8,
     players: [
-      {}
+      "Jrue Holiday",
+      "E'Twaun Moore",
+      "Julius Randle",
+      "Nikola Mirotic",
+      "Anthony Davis"
     ]
   },
   {
@@ -259,7 +340,11 @@ export const TEAMS: Team[] = [
     rpg: 44.5,
     apg: 19.8,
     players: [
-      {}
+      "Tim Hardaway Jr.",
+      "Emmanuel Mudiay",
+      "Mario Hezonja",
+      "Kristaps Porzingis",
+      "Enes Kanter"
     ]
   },
   {
@@ -272,7 +357,11 @@ export const TEAMS: Team[] = [
     rpg: 48.1,
     apg: 23.1,
     players: [
-      {}
+      "Russell Westbrook",
+      "Dennis Schroder",
+      "Paul George",
+      "Jerami Grant",
+      "Steven Adams"
     ]
   },
   {
@@ -285,7 +374,11 @@ export const TEAMS: Team[] = [
     rpg: 43.0,
     apg: 24.5,
     players: [
-      {}
+      "Evan Fournier",
+      "Terrence Ross",
+      "Aaron Gordan",
+      "Jonathon Simmons",
+      "Mo Bamba"
     ]
   },
   {
@@ -298,7 +391,11 @@ export const TEAMS: Team[] = [
     rpg: 47.6,
     apg: 27.5,
     players: [
-      {}
+      "Ben Simmons",
+      "Jimmy Butler",
+      "Corey Brewer",
+      "Winson Chandler",
+      "Joel Embiid"
     ]
   },
   {
@@ -311,7 +408,10 @@ export const TEAMS: Team[] = [
     rpg: 40.1,
     apg: 23.8,
     players: [
-      {}
+      "Devin Booker",
+      "Jamal Crawford",
+      "Kelly Oubre Jr.",
+      "Deandre Ayton"
     ]
   },
   {
@@ -324,7 +424,11 @@ export const TEAMS: Team[] = [
     rpg: 48.2,
     apg: 22.5,
     players: [
-      {}
+      "Damian Lillard",
+      "CJ McCollum",
+      "Al-Farouq Aminu",
+      "Evan Turner",
+      "Jusuf Nurkic"
     ]
   },
   {
@@ -337,7 +441,11 @@ export const TEAMS: Team[] = [
     rpg: 44.4,
     apg: 25.9,
     players: [
-      {}
+      "De'Aaron Fox",
+      "Iman Shumpert",
+      "Zach Randolph",
+      "Harry Giles III",
+      "Willie Cauley-Stein"
     ]
   },
   {
@@ -350,7 +458,11 @@ export const TEAMS: Team[] = [
     rpg: 44.2,
     apg: 24.7,
     players: [
-      {}
+      "DeMar DeRozan",
+      "Patty Mills",
+      "Rudy Gay",
+      "LaMarcus Aldridge",
+      "Pau Gasol"
     ]
   },
   {
@@ -363,7 +475,11 @@ export const TEAMS: Team[] = [
     rpg: 45.0,
     apg: 24.4,
     players: [
-      {}
+      "Kyle Lowry",
+      "Fred VanVleet",
+      "CJ Miles",
+      "Danny Green",
+      "Jonas Valanciunas"
     ]
   },
   {
@@ -376,7 +492,11 @@ export const TEAMS: Team[] = [
     rpg: 45.2,
     apg: 24.8,
     players: [
-      {}
+      "Donovan Mitchell",
+      "Ricky Rubio",
+      "Jae Crowder",
+      "Derrick Favors",
+      "Rudy Golbert"
     ]
   },
   {
@@ -389,7 +509,11 @@ export const TEAMS: Team[] = [
     rpg: 41.1,
     apg: 25.5,
     players: [
-      {}
+      "John Wall",
+      "Bradley Beal",
+      "Trevor Ariza",
+      "Markieff Morris",
+      "Dwight Howard"
     ]
   },
 ]

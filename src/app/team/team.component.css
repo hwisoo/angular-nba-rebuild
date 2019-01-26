@@ -1,3 +1,8 @@
+ul {
+  overflow-y: scroll;
+  width: 200px;
+}
+
 li {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   line-height: 24px;
@@ -5,8 +10,8 @@ li {
 }
 
 li a {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: bold;
   display: table-cell;
   vertical-align: middle;
   color: #0B5BE1;
