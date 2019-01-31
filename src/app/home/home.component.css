@@ -1,0 +1,16 @@
+#body {
+  width: 50%;
+  margin: auto;
+}
+
+button {
+  font-size: 25px;
+  width: 200px;
+  height: 70px;
+  background-color: #1d428a;
+  color: white;
+}
+
+#buttonContainer {
+  margin-top: 200px;
+}
