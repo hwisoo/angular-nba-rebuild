@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
 import { TeamService } from '../team.service';
 import { Location } from '@angular/common';
 import { PlayerService } from '../player.service';
+import { Player } from '../models/player.model';
 
 @Component({
   selector: 'team-detail',
@@ -17,6 +18,8 @@ export class TeamdetailComponent implements OnInit {
   teamId: string = null;
   teamToDisplay: Team;
   allTeams: Team[];
+  teamPlayersToDisplay: Player[] = null;
+
   constructor(private route: ActivatedRoute,
     private location: Location, private teamService: TeamService, private playerService: PlayerService, private router: Router) { }
 
@@ -27,6 +30,7 @@ export class TeamdetailComponent implements OnInit {
       this.teamId = urlParameters['img'];
     });
     this.teamToDisplay = this.teamService.getTeamById(this.teamId);
+    this.teamPlayersToDisplay = this.playerService.getPlayersByTeam(this.teamId)
   }
 
   goToDetailPage(clickedTeam: Team) {
@@ -34,6 +38,7 @@ export class TeamdetailComponent implements OnInit {
   };
   setTeamtoDisplay(team) {
     this.teamToDisplay = team;
+    this.teamPlayersToDisplay = this.playerService.getPlayersByTeam(team.img);
   }
 
 
