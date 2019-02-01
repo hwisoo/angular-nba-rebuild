@@ -13,6 +13,7 @@ import { TeamdetailComponent } from "./teamdetail/teamdetail.component";
 
 import { PlayerService } from "./player.service";
 import { routing } from "./app.routing";
+import { TeamService } from "./team.service";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { routing } from "./app.routing";
     PlayerdetailComponent
   ],
   imports: [BrowserModule, FormsModule, HttpModule, routing],
-  providers: [PlayerService],
+  providers: [PlayerService, TeamService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

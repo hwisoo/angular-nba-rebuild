@@ -1,21 +1,16 @@
 <div class="container">
   <div id="teamList" class="row">
     <ul class="col col-md-3">
-      <li *ngFor="let team of allTeams" (click)="setSelectedTeam(team)">
-        <img class="logo" src="../../assets/{{ team.img }}.svg" /><a
-          >{{ team.city }}
+      <li *ngFor="let team of allTeams" (click)="goToDetailPage(team)">
+        <img class="logo" src="../../assets/{{ team.img }}.svg" /><a>{{ team.city }}
           {{ team.name }}
-          <hr
-        /></a>
+          <hr /></a>
       </li>
     </ul>
 
     <div class="col col-md-7">
       <div class="row">
-        <img
-          class="col col-md-3"
-          src="../../assets/{{ selectedTeam.img }}.svg"
-        />
+        <img class="col col-md-3" src="../../assets/{{ selectedTeam.img }}.svg" />
         <div class="col col-md-7">
           <h1>
             {{ selectedTeam.city }}<br />
