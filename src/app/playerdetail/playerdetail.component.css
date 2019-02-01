@@ -130,3 +130,9 @@
   background-color: #00471b;
   background: linear-gradient(to bottom, #00471b 0%, #00471b 38%, transparent 100%) no-repeat, #0b1a36;
 }
+
+.MIN {
+  color: white;
+  background-color: #2b6291;
+  background: linear-gradient(to bottom, #2b6291 0%, #2b6291 38%, transparent 100%) no-repeat, #0b1a36;
+}
