@@ -1,13 +1,10 @@
 <div class="card-columns">
   <div class="card" *ngFor="let player of allPlayers">
     <span id="num">{{ player.number }}</span>
-    <img
-      class="card-img-top"
-      src="http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/{{
+    <img class="card-img-top" src="http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/{{
         player.id
       }}.png"
-      alt="Card image cap"
-    />
+      alt="Card image cap" />
     <div class="card-body">
       <h6 class="card-title text-center">
         {{ player.fname }} {{ player.lname }}
@@ -19,7 +16,6 @@
         {{ player.height }} | {{ player.weight }}
       </h6>
       <img class="logo" src="../../assets/{{ player.team }}.svg" />
-      <a href="#" class="btn btn-dark">Details</a>
     </div>
   </div>
 </div>
