@@ -1,5 +1,61 @@
-<div>
-  <h3>{{playerToDisplay.fname}}</h3>
-  <h4>{{playerToDisplay.lname}}</h4>
-  <p>{{playerToDisplay.sppg}}</p>
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <span id="num">#{{ playerToDisplay.number }}</span>
+      <img class="card-img-top" src="http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/{{
+      playerToDisplay.id
+    }}.png"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h6 id="name" class="card-title text-center">
+          {{ playerToDisplay.fname }} {{ playerToDisplay.lname }}
+        </h6>
+        <p id="position" class="card-text text-center">
+          {{ playerToDisplay.position }}
+        </p>
+        <h6 id="height_weight" class="card-text text-center">
+          {{ playerToDisplay.height }} | {{ playerToDisplay.weight }}
+        </h6>
+        <img class="logo" src="../../assets/{{ playerToDisplay.team }}.svg" />
+      </div>
+    </div>
+    <div class="details {{playerToDisplay.team}}">
+
+      <div id="name">
+
+        <h3><img class="biglogo" src="../../assets/{{ playerToDisplay.team }}.svg" />{{playerToDisplay.fname}}
+          {{playerToDisplay.lname}}</h3>
+
+      </div>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">2018-19 </th>
+            <th scope="col">MPG</th>
+            <th scope="col">FG%</th>
+            <th scope="col">3P%</th>
+            <th scope="col">FT%</th>
+            <th scope="col">PPG</th>
+            <th scope="col">RPG</th>
+            <th scope="col">APG</th>
+            <th scope="col">BPG</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Season Stats</td>
+            <td>{{ playerToDisplay.smpg }}</td>
+            <td>{{ playerToDisplay.sfgp }}</td>
+            <td>{{ playerToDisplay.stpp }}</td>
+            <td>{{ playerToDisplay.sftp }}</td>
+            <td>{{ playerToDisplay.sppg }}</td>
+            <td>{{ playerToDisplay.srpg }}</td>
+            <td>{{ playerToDisplay.sapg }}</td>
+            <td>{{ playerToDisplay.sbpg }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
 </div>
