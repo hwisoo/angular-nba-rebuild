@@ -7,9 +7,11 @@ import { HeaderComponent } from "./header/header.component";
 import { HomeComponent } from "./home/home.component";
 import { TeamComponent } from "./team/team.component";
 import { PlayerComponent } from "./player/player.component";
+import { PlayerdetailComponent } from "./playerdetail/playerdetail.component";
+
 import { TeamdetailComponent } from "./teamdetail/teamdetail.component";
 
-import { DataService } from "./data.service";
+import { PlayerService } from "./player.service";
 import { routing } from "./app.routing";
 
 @NgModule({
@@ -19,10 +21,11 @@ import { routing } from "./app.routing";
     HomeComponent,
     TeamComponent,
     PlayerComponent,
-    TeamdetailComponent
+    TeamdetailComponent,
+    PlayerdetailComponent
   ],
   imports: [BrowserModule, FormsModule, HttpModule, routing],
-  providers: [DataService],
+  providers: [PlayerService],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

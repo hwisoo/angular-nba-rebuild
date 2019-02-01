@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { DataService } from './data.service';
+import { PlayerService } from './player.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,7 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private dataService: DataService) {
+  constructor(private playerService: PlayerService) {
 
   }
 

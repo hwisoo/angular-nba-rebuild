@@ -14,11 +14,20 @@
   margin-left: 50px;
 }
 
+#name {
+  font-size: 0.9rem;
+  font-display: bold;
+}
+
 #num {
   font-weight: bold;
   margin-left: 10px;
 }
 
-h6 {
-  font-size: 15px;
+#position {
+  font-size: 0.8rem;
+}
+
+#height_weight {
+  font-size: 0.85rem;
 }
