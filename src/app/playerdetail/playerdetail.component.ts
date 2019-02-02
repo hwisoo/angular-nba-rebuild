@@ -3,6 +3,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Player } from '../models/player.model';
 import { PlayerService } from '../player.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-playerdetail',
   templateUrl: './playerdetail.component.html',
@@ -15,7 +16,8 @@ export class PlayerdetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private location: Location,
-    private playerService: PlayerService) { }
+    private playerService: PlayerService,
+    private router: Router) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
@@ -23,4 +25,8 @@ export class PlayerdetailComponent implements OnInit {
     });
     this.playerToDisplay = this.playerService.getPlayerById(this.playerId);
   }
+
+  goToTeamPage(clickedTeam: string) {
+    this.router.navigate(['teams', clickedTeam]);
+  };
 }

@@ -20,8 +20,18 @@
   margin-left: 65px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .biglogo {
   width: 100px;
+}
+
+.biglogo:hover {
+  width: 103px;
+  height: 103px;
+  cursor: pointer;
 }
 
 #position {

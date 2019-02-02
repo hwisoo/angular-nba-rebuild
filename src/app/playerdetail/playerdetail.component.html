@@ -16,7 +16,7 @@
         <h6 id="height_weight" class="card-text text-center">
           {{ playerToDisplay.height }} | {{ playerToDisplay.weight }}
         </h6>
-        <img class="logo" src="../../assets/{{ playerToDisplay.team }}.svg" />
+        <img (click)="goToTeamPage(playerToDisplay.team)" class="logo" src="../../assets/{{ playerToDisplay.team }}.svg" />
       </div>
     </div>
 
@@ -26,7 +26,7 @@
 
         <div id="name">
 
-          <h3><img class="biglogo" src="../../assets/{{ playerToDisplay.team }}.svg" />{{playerToDisplay.fname}}
+          <h3><img (click)="goToTeamPage(playerToDisplay.team)" class="biglogo" src="../../assets/{{ playerToDisplay.team }}.svg" />{{playerToDisplay.fname}}
             {{playerToDisplay.lname}}</h3>
           <span>#{{playerToDisplay.number}} | {{playerToDisplay.position}} </span>
         </div>
