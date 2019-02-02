@@ -191,6 +191,11 @@ table.table {
   background: linear-gradient(to bottom, #f9a11e 0%, #f9a11e 38%, transparent 100%) no-repeat, #0b1a36;
 }
 
+.WAS {
+  background-color: #cf142b;
+  background: linear-gradient(to bottom, #cf142b 0%, #cf142b 38%, transparent 100%) no-repeat, #0b1a36;
+}
+
 .ATL,
 .BOS,
 .BKN,
@@ -218,6 +223,7 @@ table.table {
 .SAC,
 .SAS,
 .TOR,
-.UTA {
+.UTA,
+.WAS {
   color: white;
 }

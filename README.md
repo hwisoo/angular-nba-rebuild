@@ -25,3 +25,42 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# _Angular Rebuild NBA.com_
+
+#### _NBA.com Rebuild using Angular, Feb 2019_
+
+#### By _**James Cho**_
+
+## Description
+
+A partial rebuild of the website http://www.nba.com/ using Angular that outputs teams and players using dynamic routing.
+
+## Specifications
+  * Program outputs a list of all teams from the database.
+  * When the user clicks on a team, the program fetches and outputs the team's details and its players.
+  
+  * Program outputs a list of all players from the database.
+  * When the user clicks on a player the program fetches and outputs the player's details. 
+
+
+## Known Bugs
+
+no known bugs
+
+## Support and contact details
+
+Please contact me at hwisoocho@gmail.com
+
+## Technologies Used
+
+HTML, CSS, Bootstrap, Javascript , Webpack, Angular, Typescript, Karma, Git,
+
+### License
+
+Images and Logo
+
+*MIT License*
+
+Copyright (c) 2019 **_James Cho_**
