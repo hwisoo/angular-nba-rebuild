@@ -37,3 +37,8 @@ h1 {
   margin-top: 20px;
   margin-left: 30px;
 }
+
+table.table {
+  color: white;
+  background-color: #0B153C;
+}

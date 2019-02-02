@@ -25,7 +25,7 @@ export class PlayerService {
 
   getPlayersByTeam(teamId: string) {
     this.teamPlayers.length = 0;
-    for (let i = 0; i < PLAYERS.length - 1; i++) {
+    for (let i = 0; i < PLAYERS.length; i++) {
       if (PLAYERS[i].team == teamId) {
         this.teamPlayers.push(PLAYERS[i]);
       }

@@ -1,6 +1,12 @@
 .card {
+  height: 350px;
   width: 180px;
   margin: 3px;
+  margin-top: 9px;
+}
+
+.card-body {
+  padding: 0;
 }
 
 .card-img-top {
@@ -11,14 +17,19 @@
 
 .logo {
   width: 50px;
-  margin-left: 50px;
+  margin-left: 65px;
 }
 
 .biglogo {
   width: 100px;
 }
 
+#position {
+  margin-top: -40px;
+}
+
 .details {
+  margin-top: 10px;
   padding-top: 80px;
   margin-left: 20px;
 }
@@ -28,7 +39,10 @@
   text-align: center;
 }
 
-
+table.table {
+  color: white;
+  background-color: #0B153C;
+}
 
 .ATL {
   background-color: #e21a37;
@@ -147,7 +161,35 @@
   background: linear-gradient(to bottom, #ef0022 0%, #ef0022 38%, transparent 100%) no-repeat, #0b1a36;
 }
 
+.PHX {
+  background-color: #e76221;
+  background: linear-gradient(to bottom, #e76221 0%, #e76221 38%, transparent 100%) no-repeat, #0b1a36;
+}
 
+.POR {
+  background-color: #c00;
+  background: linear-gradient(to bottom, #c00 0%, #c00 38%, transparent 100%) no-repeat, #0b1a36;
+}
+
+.SAC {
+  background-color: #51388a;
+  background: linear-gradient(to bottom, #51388a 0%, #51388a 38%, transparent 100%) no-repeat, #0b1a36;
+}
+
+.SAS {
+  background-color: #959191;
+  background: linear-gradient(to bottom, #959191 0%, #959191 38%, transparent 100%) no-repeat, #0b1a36;
+}
+
+.TOR {
+  background-color: #bd1b21;
+  background: linear-gradient(to bottom, #bd1b21 0%, #bd1b21 38%, transparent 100%) no-repeat, #0b1a36;
+}
+
+.UTA {
+  background-color: #f9a11e;
+  background: linear-gradient(to bottom, #f9a11e 0%, #f9a11e 38%, transparent 100%) no-repeat, #0b1a36;
+}
 
 .ATL,
 .BOS,
@@ -169,6 +211,13 @@
 .MIN,
 .NOP,
 .NYK,
-.ORL {
+.ORL,
+.PHI,
+.PHX,
+.POR,
+.SAC,
+.SAS,
+.TOR,
+.UTA {
   color: white;
 }
