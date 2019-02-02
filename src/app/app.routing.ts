@@ -10,7 +10,6 @@ import { PlayerdetailComponent } from "./playerdetail/playerdetail.component";
 const appRoutes: Routes = [
   { path: "", component: HomeComponent },
   { path: "home", component: HomeComponent },
-  { path: "teams", component: TeamComponent },
   { path: "teams/:img", component: TeamdetailComponent },
   { path: "players", component: PlayerComponent },
   { path: "players/:id", component: PlayerdetailComponent }

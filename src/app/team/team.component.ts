@@ -24,4 +24,8 @@ export class TeamComponent implements OnInit {
     this.router.navigate(['teams', clickedTeam.img]);
   };
 
+  goToPlayerPage(clickedPlayer: Player) {
+    this.router.navigate(['players', clickedPlayer.id]);
+  };
+
 }

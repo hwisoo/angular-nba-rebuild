@@ -36,10 +36,15 @@ export class TeamdetailComponent implements OnInit {
   goToDetailPage(clickedTeam: Team) {
     this.router.navigate(['teams', clickedTeam.img]);
   };
+  goToPlayerPage(clickedPlayer: Player) {
+    this.router.navigate(['players', clickedPlayer.id]);
+  };
   setTeamtoDisplay(team) {
     this.teamToDisplay = team;
     this.teamPlayersToDisplay = this.playerService.getPlayersByTeam(team.img);
   }
+
+
 
 
 }

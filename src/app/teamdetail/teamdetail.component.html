@@ -39,7 +39,27 @@
       </table>
 
       <h3>Players</h3>
-      <p *ngFor="let player of teamPlayersToDisplay">{{player.fname}} {{player.lname}}</p>
+      <div class="card-columns">
+        <div class="card" *ngFor="let player of teamPlayersToDisplay" (click)="goToPlayerPage(player)">
+          <span id="num">#{{ player.number }}</span>
+          <img class="card-img-top" src="http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/{{
+                player.id
+              }}.png"
+            alt="Card image cap" />
+          <div class="card-body">
+            <h6 id="name" class="card-title text-center">
+              {{ player.fname }} {{ player.lname }}
+            </h6>
+            <p id="position" class="card-text text-center">
+              {{ player.position }}
+            </p>
+            <h6 id="height_weight" class="card-text text-center">
+              {{ player.height }} | {{ player.weight }}
+            </h6>
+            <img class="logo" src="../../assets/{{ player.team }}.svg" />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
