@@ -1,7 +1,6 @@
 import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
-import { TeamComponent } from "./team/team.component";
 import { PlayerComponent } from "./player/player.component";
 import { TeamdetailComponent } from "./teamdetail/teamdetail.component";
 import { PlayerdetailComponent } from "./playerdetail/playerdetail.component";

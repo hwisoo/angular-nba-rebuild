@@ -5,7 +5,6 @@ import { FormsModule } from "@angular/forms";
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./header/header.component";
 import { HomeComponent } from "./home/home.component";
-import { TeamComponent } from "./team/team.component";
 import { PlayerComponent } from "./player/player.component";
 import { PlayerdetailComponent } from "./playerdetail/playerdetail.component";
 
@@ -20,7 +19,6 @@ import { TeamService } from "./team.service";
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    TeamComponent,
     PlayerComponent,
     TeamdetailComponent,
     PlayerdetailComponent
