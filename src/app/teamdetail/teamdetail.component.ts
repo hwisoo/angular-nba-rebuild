@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { TeamComponent } from '../team/team.component';
 import { Team } from '../models/team.model';
 import { Router } from '@angular/router';
 import { TeamService } from '../team.service';

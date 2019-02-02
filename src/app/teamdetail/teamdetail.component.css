@@ -52,16 +52,21 @@ table.table {
 }
 
 .card {
-  width: 170px;
+  width: auto;
   margin: 3px;
 }
 
+.card:hover {
+  border: 3px solid #1d428a;
+}
+
 .card-columns {
+  width: 100vh;
   column-count: 1;
 }
 
 .card-img-top {
-  width: 170px;
+  width: 150px;
   border-radius: 50%;
   margin: auto;
 }
