@@ -9,34 +9,36 @@
     </ul>
 
     <div class="col col-md-7">
-      <div class="row">
+      <div id="teamBanner" class="row {{teamToDisplay.img}}">
         <img class="col col-md-3" src="../../assets/{{ teamToDisplay.img }}.svg" />
         <div class="col col-md-7">
-          <h1>
+          <h1 id="bannerName">
             {{ teamToDisplay.city }}<br />
             {{ teamToDisplay.name }}
           </h1>
         </div>
       </div>
+      <div class="row">
 
-      <table class="table table-hover table-dark">
-        <thead>
-          <tr>
-            <th scope="col">PPG</th>
-            <th scope="col">OPPG</th>
-            <th scope="col">RPG</th>
-            <th scope="col">APG</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{{ teamToDisplay.ppg }}</td>
-            <td>{{ teamToDisplay.oppg }}</td>
-            <td>{{ teamToDisplay.rpg }}</td>
-            <td>{{ teamToDisplay.apg }}</td>
-          </tr>
-        </tbody>
-      </table>
+        <table class="table table-hover table-dark">
+          <thead>
+            <tr>
+              <th scope="col">PPG</th>
+              <th scope="col">OPPG</th>
+              <th scope="col">RPG</th>
+              <th scope="col">APG</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ teamToDisplay.ppg }}</td>
+              <td>{{ teamToDisplay.oppg }}</td>
+              <td>{{ teamToDisplay.rpg }}</td>
+              <td>{{ teamToDisplay.apg }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <h3>Players</h3>
       <div class="card-columns">
