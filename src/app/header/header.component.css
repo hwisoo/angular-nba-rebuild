@@ -1,5 +1,5 @@
 .navbar {
-  height: 54px;
+  height: 80px;
   width: 100vw;
   font-size: 1em;
   background-color: #1d428a;
@@ -7,7 +7,6 @@
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   padding: 10;
 }
-
 
 ul {
   margin-top: 8px;
@@ -20,7 +19,6 @@ ul {
 li {
   float: left;
 }
-
 
 li a:hover {
   background-color: white;
@@ -36,5 +34,6 @@ li a {
 }
 
 #nbaLogo {
+  top: 0;
   margin-left: 30px;
 }
