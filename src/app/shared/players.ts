@@ -11,14 +11,14 @@ export const PLAYERS: Player[] = [
     number: 24,
     height: "6ft 5in",
     weight: "201lbs",
-    smpg: 27.2,
-    sfgp: 44.3,
-    stpp: 33.1,
-    sftp: 74.8,
-    sppg: 13.9,
+    smpg: 24.5,
+    sfgp: 40.2,
+    stpp: 32.0,
+    sftp: 72.6,
+    sppg: 11.6,
     srpg: 3.9,
-    sapg: 2.6,
-    sbpg: 0.9
+    sapg: 2.3,
+    sbpg: 0.6
   },
   {
     id: 1627752,
@@ -29,33 +29,16 @@ export const PLAYERS: Player[] = [
     number: 12,
     height: "6ft 8in",
     weight: "220lbs",
-    smpg: 27.4,
-    sfgp: 42.9,
-    stpp: 35.7,
-    sftp: 81.5,
-    sppg: 13.6,
-    srpg: 4,
-    sapg: 2,
-    sbpg: 0.4
+    smpg: 28.2,
+    sfgp: 44.1,
+    stpp: 39.0,
+    sftp: 81.9,
+    sppg: 13.5,
+    srpg: 3.6,
+    sapg: 2.1,
+    sbpg: 0.3
   },
-  {
-    id: 202391,
-    fname: "Jeremy",
-    lname: "Lin",
-    team: "ATL",
-    position: "Guard",
-    number: 7,
-    height: "6ft 3in",
-    weight: "200lbs",
-    smpg: 19.9,
-    sfgp: 47.9,
-    stpp: 34.2,
-    sftp: 82.4,
-    sppg: 10.9,
-    srpg: 2.4,
-    sapg: 3.6,
-    sbpg: 0.1
-  },
+  
   {
     id: 1629027,
     fname: "Trae",
@@ -91,6 +74,24 @@ export const PLAYERS: Player[] = [
     srpg: 2.7,
     sapg: 1,
     sbpg: 0.3
+  },
+  {
+    id: 203458,
+    fname: "Alex",
+    lname: "Len",
+    team: "ATL",
+    position: "Center",
+    number: 25,
+    height: "7ft 1in",
+    weight: "250lbs",
+    smpg: 20.1,
+    sfgp: 49.4,
+    stpp: 36.3,
+    sftp: 64.8,
+    sppg: 11.1,
+    srpg: 5.5,
+    sapg: 1.1,
+    sbpg: 0.9
   },
 
   //Boston Celtics
@@ -372,22 +373,22 @@ export const PLAYERS: Player[] = [
 
   // Chicago Bulls
   {
-    id: 2546,
-    fname: "Carmelo",
-    lname: "Anthony",
+    id: 1628976,
+    fname: "Wendell",
+    lname: "Carter Jr.",
     team: "CHI",
-    position: "Forward",
-    number: 7,
-    height: "6ft 8in",
-    weight: "240lbs",
-    smpg: 29.4,
-    sfgp: 40.5,
-    stpp: 32.8,
-    sftp: 68.2,
-    sppg: 13.4,
-    srpg: 5.4,
-    sapg: 0.5,
-    sbpg: 0.7
+    position: "Center",
+    number: 34,
+    height: "6ft 10in",
+    weight: "255lbs",
+    smpg: 25.2,
+    sfgp: 48.5,
+    stpp: 18.8,
+    sftp: 79.5,
+    sppg: 10.3,
+    srpg: 7,
+    sapg: 1.8,
+    sbpg: 1.3
   },
   {
     id: 203897,
@@ -408,22 +409,22 @@ export const PLAYERS: Player[] = [
     sbpg: 0.4
   },
   {
-    id: 203953,
-    fname: "Jabari",
-    lname: "Parker",
+    id: 1627756,
+    fname: "Denzel",
+    lname: "Valentine",
     team: "CHI",
-    position: "Forward",
-    number: 2,
-    height: "6ft 8in",
-    weight: "245lbs",
-    smpg: 26.7,
-    sfgp: 47.4,
-    stpp: 32.5,
-    sftp: 73.1,
-    sppg: 14.3,
-    srpg: 6.2,
-    sapg: 2.2,
-    sbpg: 0.4
+    position: "Guard",
+    number: 45,
+    height: "6ft 6in",
+    weight: "210lbs",
+    smpg: 27.2,
+    sfgp: 41.7,
+    stpp: 38.6,
+    sftp: 74.5,
+    sppg: 10.2,
+    srpg: 5.1,
+    sapg: 3.2,
+    sbpg: 0.1
   },
   {
     id: 201577,
@@ -593,59 +594,61 @@ export const PLAYERS: Player[] = [
     sbpg: 0.3
   },
   {
-    id: 203084,
-    fname: "Harrison",
-    lname: "Barnes",
+    id: 200826,
+    fname: "J.J.",
+    lname: "Barea",
     team: "DAL",
-    position: "Forward",
-    number: 40,
-    height: "6ft 8in",
-    weight: "225lbs",
-    smpg: 32.4,
-    sfgp: 40.7,
-    stpp: 38.9,
-    sftp: 83.3,
-    sppg: 17.9,
-    srpg: 4.2,
-    sapg: 1.3,
-    sbpg: 0.2
+    position: "Guard",
+    number: 5,
+    height: "6ft",
+    weight: "185lbs",
+    smpg: 19.8,
+    sfgp: 41.8,
+    stpp: 29.7,
+    sftp: 70.5,
+    sppg: 10.9,
+    srpg: 2.5,
+    sapg: 5.6,
+    sbpg: 0.0
   },
   {
-    id: 201599,
-    fname: "DeAndre",
-    lname: "Jordan",
+    id: 203501,
+    fname: "Tim",
+    lname: "Hardaway Jr.",
     team: "DAL",
-    position: "Center",
+    position: "Guard",
+    number: 11,
+    height: "6ft 6in",
+    weight: "205lbs",
+    smpg: 32.6,
+    sfgp: 38.8,
+    stpp: 34.7,
+    sftp: 85.4,
+    sppg: 19.1,
+    srpg: 3.5,
+    sapg: 2.7,
+    sbpg: 0.1
+  },
+  {
+    id: 204001,
+    fname: "Kristaps",
+    lname: "Porzingis",
+    team: "DAL",
+    position: "Forward-Center",
     number: 6,
-    height: "6ft 11in",
-    weight: "265lbs",
-    smpg: 31.1,
-    sfgp: 64.4,
-    stpp: 0,
-    sftp: 68.2,
-    sppg: 11,
-    srpg: 13.7,
-    sapg: 2,
-    sbpg: 1.1
+    height: "7ft 3in",
+    weight: "240lbs",
+    smpg: 32.4,
+    sfgp: 43.9,
+    stpp: 39.5,
+    sftp: 79.3,
+    sppg: 22.7,
+    srpg: 6.6,
+    sapg: 1.2,
+    sbpg: 2.4
   },
-  {
-    id: 202083,
-    fname: "Wesley",
-    lname: "Matthews",
-    team: "DAL",
-    position: "Guard-Forward",
-    number: 23,
-    height: "6ft 5in",
-    weight: "220lbs",
-    smpg: 29.8,
-    sfgp: 41.4,
-    stpp: 38,
-    sftp: 79.1,
-    sppg: 13.1,
-    srpg: 2.3,
-    sapg: 2.3,
-    sbpg: 0.3
-  },
+  
+  
 
   // Denver Nuggets
   {
@@ -1035,6 +1038,7 @@ export const PLAYERS: Player[] = [
     sapg: 5.2,
     sbpg: 0.3
   },
+  
   {
     id: 1626167,
     fname: "Myles",
@@ -1128,23 +1132,24 @@ export const PLAYERS: Player[] = [
     sbpg: 0.5
   },
   {
-    id: 202340,
-    fname: "Avery",
-    lname: "Bradley",
+    id: 101150,
+    fname: "Lou",
+    lname: "Williams",
     team: "LAC",
     position: "Guard",
-    number: 11,
-    height: "6ft 2in",
-    weight: "180lbs",
-    smpg: 29.9,
-    sfgp: 38.6,
-    stpp: 33.7,
-    sftp: 82.6,
-    sppg: 8.3,
-    srpg: 2.7,
-    sapg: 2,
-    sbpg: 0.3
+    number: 23,
+    height: "6ft 1in",
+    weight: "175lbs",
+    smpg: 29.4,
+    sfgp: 43.3,
+    stpp: 33.3,
+    sftp: 82.9,
+    sppg: 21.7,
+    srpg: 2.8,
+    sapg: 7.7,
+    sbpg: 0.2
   },
+  
   {
     id: 202699,
     fname: "Tobias",
@@ -1199,6 +1204,7 @@ export const PLAYERS: Player[] = [
     sapg: 1.4,
     sbpg: 0.5
   },
+  
 
   // LA Lakers
   {
@@ -1312,6 +1318,42 @@ export const PLAYERS: Player[] = [
     sbpg: 0.3
   },
   {
+    id: 202340,
+    fname: "Avery",
+    lname: "Bradley",
+    team: "MEM",
+    position: "Guard",
+    number: 11,
+    height: "6ft 2in",
+    weight: "180lbs",
+    smpg: 29.9,
+    sfgp: 38.6,
+    stpp: 33.7,
+    sftp: 82.6,
+    sppg: 8.3,
+    srpg: 2.7,
+    sapg: 2,
+    sbpg: 0.3
+  },
+  {
+    id: 101139,
+    fname: "CJ",
+    lname: "Miles",
+    team: "MEM",
+    position: "Forward-Guard",
+    number: 0,
+    height: "6ft 6in",
+    weight: "220lbs",
+    smpg: 14.2,
+    sfgp: 33,
+    stpp: 30.3,
+    sftp: 77.5,
+    sppg: 5.3,
+    srpg: 1.7,
+    sapg: 0.6,
+    sbpg: 0.2
+  },
+  {
     id: 1628415,
     fname: "Dillon",
     lname: "Brooks",
@@ -1347,42 +1389,7 @@ export const PLAYERS: Player[] = [
     sapg: 3,
     sbpg: 0.9
   },
-  {
-    id: 203210,
-    fname: "JaMychal",
-    lname: "Green",
-    team: "MEM",
-    position: "Forward",
-    number: 0,
-    height: "6ft 9in",
-    weight: "227lbs",
-    smpg: 22.3,
-    sfgp: 48.7,
-    stpp: 38.7,
-    sftp: 78.2,
-    sppg: 10.1,
-    srpg: 6.3,
-    sapg: 0.9,
-    sbpg: 0.7
-  },
-  {
-    id: 201188,
-    fname: "Marc",
-    lname: "Gasol",
-    team: "MEM",
-    position: "Center",
-    number: 33,
-    height: "7ft 1in",
-    weight: "255lbs",
-    smpg: 33.9,
-    sfgp: 44.2,
-    stpp: 35.2,
-    sftp: 76,
-    sppg: 15.7,
-    srpg: 8.6,
-    sapg: 4.7,
-    sbpg: 1.2
-  },
+  
 
   // Miami Heat
   {
@@ -1495,24 +1502,7 @@ export const PLAYERS: Player[] = [
     sapg: 5.5,
     sbpg: 0.4
   },
-  {
-    id: 1627763,
-    fname: "Malcolm",
-    lname: "Brogdon",
-    team: "MIL",
-    position: "Guard",
-    number: 13,
-    height: "6ft 5in",
-    weight: "229lbs",
-    smpg: 29.5,
-    sfgp: 51.3,
-    stpp: 41.8,
-    sftp: 94.6,
-    sppg: 15.7,
-    srpg: 4.6,
-    sapg: 3.3,
-    sbpg: 0.2
-  },
+  
   {
     id: 203114,
     fname: "Khris",
@@ -1548,6 +1538,24 @@ export const PLAYERS: Player[] = [
     srpg: 12.6,
     sapg: 5.9,
     sbpg: 1.4
+  },
+  {
+    id: 202703,
+    fname: "Nikola",
+    lname: "Mirotic",
+    team: "MIL",
+    position: "Forward",
+    number: 3,
+    height: "6ft 10in",
+    weight: "250lbs",
+    smpg: 28.9,
+    sfgp: 44.7,
+    stpp: 36.8,
+    sftp: 84.2,
+    sppg: 16.7,
+    srpg: 8.3,
+    sapg: 1.1,
+    sbpg: 0.8
   },
   {
     id: 201572,
@@ -1717,24 +1725,7 @@ export const PLAYERS: Player[] = [
     sapg: 2,
     sbpg: 0.2
   },
-  {
-    id: 202703,
-    fname: "Nikola",
-    lname: "Mirotic",
-    team: "NOP",
-    position: "Forward",
-    number: 3,
-    height: "6ft 10in",
-    weight: "250lbs",
-    smpg: 28.9,
-    sfgp: 44.7,
-    stpp: 36.8,
-    sftp: 84.2,
-    sppg: 16.7,
-    srpg: 8.3,
-    sapg: 1.1,
-    sbpg: 0.8
-  },
+  
   {
     id: 203076,
     fname: "Anthony",
@@ -1773,24 +1764,7 @@ export const PLAYERS: Player[] = [
     sapg: 2.8,
     sbpg: 0.2
   },
-  {
-    id: 203501,
-    fname: "Tim",
-    lname: "Hardaway Jr.",
-    team: "NYK",
-    position: "Guard",
-    number: 11,
-    height: "6ft 6in",
-    weight: "205lbs",
-    smpg: 32.6,
-    sfgp: 38.8,
-    stpp: 34.7,
-    sftp: 85.4,
-    sppg: 19.1,
-    srpg: 3.5,
-    sapg: 2.7,
-    sbpg: 0.1
-  },
+  
   {
     id: 1628995,
     fname: "Kevin",
@@ -1828,23 +1802,24 @@ export const PLAYERS: Player[] = [
     sbpg: 0.3
   },
   {
-    id: 202683,
-    fname: "Enes",
-    lname: "Kanter",
+    id: 201599,
+    fname: "DeAndre",
+    lname: "Jordan",
     team: "NYK",
     position: "Center",
-    number: 0o0,
+    number: 6,
     height: "6ft 11in",
-    weight: "250lbs",
-    smpg: 25.9,
-    sfgp: 53.9,
-    stpp: 33.3,
-    sftp: 81.4,
-    sppg: 14.1,
-    srpg: 10.6,
-    sapg: 1.9,
-    sbpg: 0.4
+    weight: "265lbs",
+    smpg: 31.1,
+    sfgp: 64.4,
+    stpp: 0,
+    sftp: 68.2,
+    sppg: 11,
+    srpg: 13.7,
+    sapg: 2,
+    sbpg: 1.1
   },
+  
 
   // Oklahoma City Thunder
   {
@@ -1937,6 +1912,7 @@ export const PLAYERS: Player[] = [
     sapg: 1.8,
     sbpg: 0.8
   },
+
 
   // Orlando Magic
   {
@@ -2251,24 +2227,8 @@ export const PLAYERS: Player[] = [
     sapg: 2.7,
     sbpg: 0.4
   },
-  {
-    id: 203090,
-    fname: "Maurice",
-    lname: "Harkless",
-    team: "POR",
-    position: "Forward",
-    number: 4,
-    height: "6ft 9in",
-    weight: "220lbs",
-    smpg: 21.7,
-    sfgp: 46.8,
-    stpp: 30,
-    sftp: 69.2,
-    sppg: 6.2,
-    srpg: 3.9,
-    sapg: 0.8,
-    sbpg: 0.9
-  },
+ 
+  
   {
     id: 202329,
     fname: "Al-Farouq",
@@ -2304,6 +2264,24 @@ export const PLAYERS: Player[] = [
     srpg: 10.4,
     sapg: 3.2,
     sbpg: 1.6
+  },
+  {
+    id: 202683,
+    fname: "Enes",
+    lname: "Kanter",
+    team: "POR",
+    position: "Center",
+    number: 0o0,
+    height: "6ft 11in",
+    weight: "250lbs",
+    smpg: 25.9,
+    sfgp: 53.9,
+    stpp: 33.3,
+    sftp: 81.4,
+    sppg: 14.1,
+    srpg: 10.6,
+    sapg: 1.9,
+    sbpg: 0.4
   },
 
   // Sacramento Kings
@@ -2344,6 +2322,25 @@ export const PLAYERS: Player[] = [
     sbpg: 0.4
   },
   {
+    id: 203084,
+    fname: "Harrison",
+    lname: "Barnes",
+    team: "SAC",
+    position: "Forward",
+    number: 40,
+    height: "6ft 8in",
+    weight: "225lbs",
+    smpg: 32.4,
+    sfgp: 40.7,
+    stpp: 38.9,
+    sftp: 83.3,
+    sppg: 17.9,
+    srpg: 4.2,
+    sapg: 1.3,
+    sbpg: 0.2
+  },
+  
+  {
     id: 203992,
     fname: "Bogdan",
     lname: "Bogdanovic",
@@ -2361,24 +2358,7 @@ export const PLAYERS: Player[] = [
     sapg: 4.2,
     sbpg: 0.2
   },
-  {
-    id: 1627746,
-    fname: "Skal",
-    lname: "Labissiere",
-    team: "SAC",
-    position: "Forward",
-    number: 7,
-    height: "6ft 11in",
-    weight: "235lbs",
-    smpg: 8.4,
-    sfgp: 44.4,
-    stpp: 30,
-    sftp: 54.5,
-    sppg: 2.8,
-    srpg: 1.7,
-    sapg: 0.4,
-    sbpg: 0.2
-  },
+  
   {
     id: 1626161,
     fname: "Willie",
@@ -2471,24 +2451,7 @@ export const PLAYERS: Player[] = [
     sapg: 2.6,
     sbpg: 1.2
   },
-  {
-    id: 2200,
-    fname: "Paul",
-    lname: "Gasol",
-    team: "SAS",
-    position: "Center-Forward",
-    number: 16,
-    height: "7ft 0in",
-    weight: "250lbs",
-    smpg: 13.2,
-    sfgp: 48,
-    stpp: 50,
-    sftp: 71.9,
-    sppg: 4.5,
-    srpg: 5.1,
-    sapg: 1.9,
-    sbpg: 0.6
-  },
+  
 
   // Toronto Raptors
   {
@@ -2509,6 +2472,7 @@ export const PLAYERS: Player[] = [
     sapg: 9.2,
     sbpg: 0.5
   },
+  
   {
     id: 201980,
     fname: "Danny",
@@ -2527,24 +2491,7 @@ export const PLAYERS: Player[] = [
     sapg: 1.3,
     sbpg: 0.8
   },
-  {
-    id: 101139,
-    fname: "CJ",
-    lname: "Miles",
-    team: "TOR",
-    position: "Forward-Guard",
-    number: 0,
-    height: "6ft 6in",
-    weight: "220lbs",
-    smpg: 14.2,
-    sfgp: 33,
-    stpp: 30.3,
-    sftp: 77.5,
-    sppg: 5.3,
-    srpg: 1.7,
-    sapg: 0.6,
-    sbpg: 0.2
-  },
+ 
   {
     id: 202695,
     fname: "Kawhi",
@@ -2580,6 +2527,24 @@ export const PLAYERS: Player[] = [
     srpg: 7.6,
     sapg: 1.4,
     sbpg: 1.4
+  },
+  {
+    id: 201188,
+    fname: "Marc",
+    lname: "Gasol",
+    team: "TOR",
+    position: "Center",
+    number: 33,
+    height: "7ft 1in",
+    weight: "255lbs",
+    smpg: 33.9,
+    sfgp: 44.2,
+    stpp: 35.2,
+    sftp: 76,
+    sppg: 15.7,
+    srpg: 8.6,
+    sapg: 4.7,
+    sbpg: 1.2
   },
 
   // Utah Jazz
@@ -2731,22 +2696,22 @@ export const PLAYERS: Player[] = [
     sbpg: 0.5
   },
   {
-    id: 202693,
-    fname: "Markieff",
-    lname: "Morris",
+    id: 203953,
+    fname: "Jabari",
+    lname: "Parker",
     team: "WAS",
     position: "Forward",
-    number: 5,
-    height: "6ft 10in",
+    number: 2,
+    height: "6ft 8in",
     weight: "245lbs",
-    smpg: 26,
-    sfgp: 43.6,
-    stpp: 33.3,
-    sftp: 78.1,
-    sppg: 11.5,
-    srpg: 5.1,
-    sapg: 1.8,
-    sbpg: 0.6
+    smpg: 26.7,
+    sfgp: 47.4,
+    stpp: 32.5,
+    sftp: 73.1,
+    sppg: 14.3,
+    srpg: 6.2,
+    sapg: 2.2,
+    sbpg: 0.4
   },
   {
     id: 2730,
