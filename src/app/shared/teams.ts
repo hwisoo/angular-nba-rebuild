@@ -39,16 +39,14 @@ export const TEAMS: Team[] = [
     img: 'BOS',
     city: 'Boston',
     name: 'Celtics',
-    ppg: 112.2,
-    oppg: 105.7,
-    rpg: 44.9,
-    apg: 25.9,
+    ppg: 113.0,
+    oppg: 106.8,
+    rpg: 46.0,
+    apg: 22.8,
     players: [
-      "Kyrie Irving",
       "Jaylen Brown",
       "Jason Tatum",
       "Gordon Hayward",
-      "Al Horford"
     ]
   },
   {
