@@ -54,13 +54,11 @@ export const TEAMS: Team[] = [
     img: 'BKN',
     city: 'Brooklyn',
     name: 'Nets',
-    ppg: 111.8,
-    oppg: 111.6,
-    rpg: 45.9,
-    apg: 23.5,
+    ppg: 110.8,
+    oppg: 111.4,
+    rpg: 48.5,
+    apg: 24,
     players: [
-      "D'Angelo Russell",
-      "Shabazz Napier",
       "DeMarre Carroll",
       "Rondae Hollis-Jefferson",
       "Jarrett Allen"
