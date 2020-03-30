@@ -16,12 +16,22 @@ export const TEAMS: Team[] = [
     rpg: 45.7,
     apg: 25.6,
     players: [
-      "Trae Young",
-      "Jeremy Lin",
+      "DeAndre' Bembry",
+      "Charles Brown Jr.",
+      "Clint Capela",
       "Vince Carter",
-      "Alex Len",
-      "Miles Plumlee"
-
+      "John Collins",
+      "DeWayne Dedmon",
+      "Bruno Fernando",
+      "Brandon Goodwin",
+      "Treveon Graham",
+      "Kevin Huerter",
+      "De'Andre Hunter",
+      "Damian Jones",
+      "Skal Labissiere",
+      "Cam Reddish",
+      "Jeff Teague",
+      "Trae Young",
     ]
   },
   {
@@ -441,6 +451,8 @@ export const TEAMS: Team[] = [
     rpg: 44.4,
     apg: 25.9,
     players: [
+      "Kent Bazemore",
+      "Alex Len",
       "De'Aaron Fox",
       "Iman Shumpert",
       "Zach Randolph",

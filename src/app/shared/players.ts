@@ -1,25 +1,8 @@
 import { Player } from "../models/player.model";
 
 export const PLAYERS: Player[] = [
-  {
-    // Atlanta Hawks
-    id: 203145,
-    fname: "Kent",
-    lname: "Bazemore",
-    team: "ATL",
-    position: "Guard",
-    number: 24,
-    height: "6ft 5in",
-    weight: "201lbs",
-    smpg: 24.5,
-    sfgp: 40.2,
-    stpp: 32.0,
-    sftp: 72.6,
-    sppg: 11.6,
-    srpg: 3.9,
-    sapg: 2.3,
-    sbpg: 0.6
-  },
+  // Atlanta Hawks
+
   {
     id: 1627752,
     fname: "Taurean",
@@ -75,24 +58,7 @@ export const PLAYERS: Player[] = [
     sapg: 1,
     sbpg: 0.3
   },
-  {
-    id: 203458,
-    fname: "Alex",
-    lname: "Len",
-    team: "ATL",
-    position: "Center",
-    number: 25,
-    height: "7ft 1in",
-    weight: "250lbs",
-    smpg: 20.1,
-    sfgp: 49.4,
-    stpp: 36.3,
-    sftp: 64.8,
-    sppg: 11.1,
-    srpg: 5.5,
-    sapg: 1.1,
-    sbpg: 0.9
-  },
+
 
   //Boston Celtics
   {
@@ -2285,6 +2251,42 @@ export const PLAYERS: Player[] = [
   },
 
   // Sacramento Kings
+  {
+    id: 203145,
+    fname: "Kent",
+    lname: "Bazemore",
+    team: "SAC",
+    position: "Guard",
+    number: 24,
+    height: "6ft 5in",
+    weight: "201lbs",
+    smpg: 23.5,
+    sfgp: 42.6,
+    stpp: 38.6,
+    sftp: 72.9,
+    sppg: 10.3,
+    srpg: 5,
+    sapg: 1.1,
+    sbpg: 0.4
+  },
+  {
+    id: 203458,
+    fname: "Alex",
+    lname: "Len",
+    team: "SAC",
+    position: "Center",
+    number: 25,
+    height: "7ft 1in",
+    weight: "250lbs",
+    smpg: 16.7,
+    sfgp: 61.9,
+    stpp: 0,
+    sftp: 70,
+    sppg: 6.6,
+    srpg: 7.1,
+    sapg: 0.6,
+    sbpg: 1.4
+  },
   {
     id: 1628368,
     fname: "De'Aaron",
