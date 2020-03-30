@@ -4,25 +4,6 @@ export const PLAYERS: Player[] = [
   // Atlanta Hawks
 
   {
-    id: 1627752,
-    fname: "Taurean",
-    lname: "Prince",
-    team: "ATL",
-    position: "Forward",
-    number: 12,
-    height: "6ft 8in",
-    weight: "220lbs",
-    smpg: 28.2,
-    sfgp: 44.1,
-    stpp: 39.0,
-    sftp: 81.9,
-    sppg: 13.5,
-    srpg: 3.6,
-    sapg: 2.1,
-    sbpg: 0.3
-  },
-  
-  {
     id: 1629027,
     fname: "Trae",
     lname: "Young",
@@ -58,6 +39,80 @@ export const PLAYERS: Player[] = [
     sapg: 1,
     sbpg: 0.3
   },
+  {
+    id: 1628381,
+    fname: "John",
+    lname: "Collins",
+    team: "ATL",
+    position: "Forward",
+    number: 20,
+    height: "6ft 9in",
+    weight: "235lbs",
+    smpg: 33.2,
+    sfgp: 58.3,
+    stpp: 40.1,
+    sftp: 80,
+    sppg: 21.6,
+    srpg: 10.1,
+    sapg: 1.5,
+    sbpg: 1.5
+  },
+  {
+    id: 1629718,
+    fname: "Charles",
+    lname: "Brown Jr.",
+    team: "ATL",
+    position: "Guard",
+    number: 4,
+    height: "6ft 6in",
+    weight: "199lbs",
+    smpg: 4,
+    sfgp: 31.6,
+    stpp: 33.3,
+    sftp: 100,
+    sppg: 2,
+    srpg: 0.4,
+    sapg: 0.2,
+    sbpg: 0.2
+  },
+
+  {
+    id: 203991,
+    fname: "Clint",
+    lname: "Capela",
+    team: "ATL",
+    position: "Center",
+    number: 17,
+    height: "6ft 10in",
+    weight: "240lbs",
+    smpg: 32.8,
+    sfgp: 62.0,
+    stpp: 0,
+    sftp: 52.9,
+    sppg: 13.9,
+    srpg: 13.8,
+    sapg: 1.2,
+    sbpg: 1.8
+  },
+  {
+    id: 1627761,
+    fname: "DeAndre'",
+    lname: "Bembry",
+    team: "ATL",
+    position: "Guard-Forward",
+    number: 95,
+    height: "6ft 5in",
+    weight: "210lbs",
+    smpg: 21.3,
+    sfgp: 45.6,
+    stpp: 23.1,
+    sftp: 54.2,
+    sppg: 5.8,
+    srpg: 3.5,
+    sapg: 1.9,
+    sbpg: 0.4
+  },
+
 
 
   //Boston Celtics
@@ -153,6 +208,24 @@ export const PLAYERS: Player[] = [
   },
 
   // Brooklyn Nets
+  {
+    id: 1627752,
+    fname: "Taurean",
+    lname: "Prince",
+    team: "BKN",
+    position: "Forward",
+    number: 2,
+    height: "6ft 8in",
+    weight: "220lbs",
+    smpg: 29,
+    sfgp: 37.6,
+    stpp: 33.9,
+    sftp: 79.8,
+    sppg: 12.1,
+    srpg: 6,
+    sapg: 1.8,
+    sbpg: 0.4
+  },
   {
     id: 1626156,
     fname: "D'Angelo",
