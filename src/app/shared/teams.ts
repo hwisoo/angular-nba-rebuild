@@ -108,7 +108,6 @@ export const TEAMS: Team[] = [
     apg: 20.0,
     players: [
       "Collin Sexton",
-      "Jordan Clarkson",
       "Cedi Osman",
       "Tristan Thompson",
       "Ante Zizic"
@@ -119,16 +118,13 @@ export const TEAMS: Team[] = [
     img: 'DAL',
     city: 'Dallas',
     name: 'Mavericks',
-    ppg: 109.4,
-    oppg: 109.5,
-    rpg: 46.0,
-    apg: 22.5,
+    ppg: 116.4,
+    oppg: 110.3,
+    rpg: 47,
+    apg: 24.5,
     players: [
       "J.J. Barea",
       "Luka Doncic",
-      "Harrison Barnes",
-      "Dirk Nowitzki",
-      "DeAndre Jordan"
     ]
   },
   {
