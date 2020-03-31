@@ -27,8 +27,6 @@
   margin-left: 40px;
 }
 
-#bannerName {
-}
 
 ul {
   width: 200px;
@@ -126,8 +124,8 @@ table.table {
 }
 
 .CHA {
-  background-color: #000;
-  background: linear-gradient(to bottom, #000 0%, #000 38%, transparent 100%)
+  background-color: #00848E;
+  background: linear-gradient(to bottom, #00848E 0%, #00848E 38%, transparent 100%)
       no-repeat,
     #0b1a36;
 }
