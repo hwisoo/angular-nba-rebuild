@@ -152,7 +152,7 @@ export const TEAMS: Team[] = [
     oppg: 110.8,
     rpg: 41.7,
     apg: 24.1,
-    players: [
+    players:  [
       "Blake Griffin",
     ]
   },
@@ -161,16 +161,14 @@ export const TEAMS: Team[] = [
     img: 'GSW',
     city: 'Golden State',
     name: 'Warriors',
-    ppg: 118.9,
-    oppg: 112.0,
-    rpg: 46.6,
-    apg: 29.2,
+    ppg: 106.3,
+    oppg: 115.0,
+    rpg: 42.8,
+    apg: 25.6,
     players: [
       "Stephen Curry",
       "Klay Thompson",
-      "Kevin Durant",
       "Draymond Green",
-      "DeMarcus Cousins"
     ]
   },
   {
