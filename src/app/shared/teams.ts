@@ -176,16 +176,14 @@ export const TEAMS: Team[] = [
     img: 'HOU',
     city: 'Houston',
     name: 'Rockets',
-    ppg: 112.2,
-    oppg: 110.7,
-    rpg: 42.0,
-    apg: 20.8,
+    ppg: 118.1,
+    oppg: 114.4,
+    rpg: 44.9,
+    apg: 21.5,
     players: [
-      "Chris Paul",
       "James Harden",
       "PJ Tucker",
       "Kenneth Faried",
-      "Clint Capela"
     ]
   },
   {
