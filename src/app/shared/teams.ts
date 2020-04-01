@@ -148,16 +148,12 @@ export const TEAMS: Team[] = [
     img: 'DET',
     city: 'Detroit',
     name: 'Pistons',
-    ppg: 106.0,
-    oppg: 108.6,
-    rpg: 45.6,
-    apg: 22.0,
+    ppg: 107.2,
+    oppg: 110.8,
+    rpg: 41.7,
+    apg: 24.1,
     players: [
-      "Jose Calderon",
-      "Reggie Jackson",
       "Blake Griffin",
-      "Glen Robinson III",
-      "Andre Drummond"
     ]
   },
   {
