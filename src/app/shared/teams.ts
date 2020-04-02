@@ -295,16 +295,15 @@ export const TEAMS: Team[] = [
     img: 'NOP',
     city: 'New Orleans',
     name: 'Pelicans',
-    ppg: 116.7,
-    oppg: 114.9,
-    rpg: 46.8,
-    apg: 26.8,
+    ppg: 116.2,
+    oppg: 117.0,
+    rpg: 47,
+    apg: 27.0,
     players: [
       "Jrue Holiday",
       "E'Twaun Moore",
       "Julius Randle",
       "Nikola Mirotic",
-      "Anthony Davis"
     ]
   },
   {
