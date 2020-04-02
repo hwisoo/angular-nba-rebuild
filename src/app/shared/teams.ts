@@ -282,15 +282,11 @@ export const TEAMS: Team[] = [
     img: 'MIN',
     city: 'Minnesota',
     name: 'Timberwolves',
-    ppg: 111.9,
-    oppg: 111.4,
-    rpg: 45.1,
-    apg: 24.5,
+    ppg: 113.2,
+    oppg: 117.5,
+    rpg: 44.8,
+    apg: 23.8,
     players: [
-      "Derrick Rose",
-      "Jeff Teague",
-      "Andrew Wiggins",
-      "Taj Gibson",
       "Karl-Anthony Towns"
     ]
   },
