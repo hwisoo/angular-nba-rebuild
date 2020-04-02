@@ -266,13 +266,12 @@ export const TEAMS: Team[] = [
     img: 'MIL',
     city: 'Milwaukee',
     name: 'Bucks',
-    ppg: 117.6,
-    oppg: 107.6,
-    rpg: 49.1,
-    apg: 26.5,
+    ppg: 118.6,
+    oppg: 107.4,
+    rpg: 51.7,
+    apg: 25.9,
     players: [
       "Eic Bledsoe",
-      "Malcolm Brogdon",
       "Giannis Antetokounpo",
       "Khris Middleton",
       "Brook Lopez"
