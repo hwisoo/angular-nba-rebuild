@@ -238,16 +238,11 @@ export const TEAMS: Team[] = [
     img: 'MEM',
     city: 'Memphis',
     name: 'Grizzlies',
-    ppg: 100.8,
-    oppg: 104.2,
-    rpg: 39.9,
-    apg: 23.5,
+    ppg: 112.6,
+    oppg: 113.7,
+    rpg: 46.7,
+    apg: 27,
     players: [
-      "Mike Conley",
-      "Shelvin Mack",
-      "Chandler Parsons",
-      "JaMychal Green",
-      "Joakim Noah"
     ]
   },
   {
@@ -260,7 +255,6 @@ export const TEAMS: Team[] = [
     rpg: 46.6,
     apg: 23.8,
     players: [
-      "Dwayne Wade",
       "Goran Dragic",
       "Udonis Haslem",
       "Kelly Olynik",
