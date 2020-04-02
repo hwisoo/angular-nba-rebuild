@@ -208,16 +208,14 @@ export const TEAMS: Team[] = [
     img: 'LAC',
     city: 'LA',
     name: 'Clippers',
-    ppg: 114.1,
-    oppg: 113.7,
-    rpg: 45.3,
-    apg: 22.7,
+    ppg: 116.2,
+    oppg: 109.7,
+    rpg: 48,
+    apg: 23.8,
     players: [
       "Patrick Beverly",
       "Lou Williams",
-      "Tobias Harris",
       "Montrezl Harrell",
-      "Marcin Gortat"
     ]
   },
   {
@@ -225,14 +223,12 @@ export const TEAMS: Team[] = [
     img: 'LAL',
     city: 'Los Angeles',
     name: 'Lakers',
-    ppg: 112.2,
-    oppg: 111.9,
-    rpg: 47.3,
-    apg: 24.5,
+    ppg: 114.3,
+    oppg: 106.9,
+    rpg: 46.1,
+    apg: 25.9,
     players: [
-      "Lonzo Ball",
       "Kyle Kuzma",
-      "Brandon Ingram",
       "Lebron James",
       "JaVale McGee"
     ]
