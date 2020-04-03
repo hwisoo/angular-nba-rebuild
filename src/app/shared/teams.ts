@@ -311,16 +311,11 @@ export const TEAMS: Team[] = [
     img: 'NYK',
     city: 'New York',
     name: 'Knicks',
-    ppg: 107.2,
-    oppg: 115.7,
-    rpg: 44.5,
-    apg: 19.8,
+    ppg: 105.8,
+    oppg: 112.3,
+    rpg: 46.5,
+    apg: 22.1,
     players: [
-      "Tim Hardaway Jr.",
-      "Emmanuel Mudiay",
-      "Mario Hezonja",
-      "Kristaps Porzingis",
-      "Enes Kanter"
     ]
   },
   {
