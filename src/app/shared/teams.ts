@@ -323,15 +323,12 @@ export const TEAMS: Team[] = [
     img: 'OKC',
     city: 'Oklahoma City',
     name: 'Thunder',
-    ppg: 114.2,
-    oppg: 109.2,
-    rpg: 48.1,
-    apg: 23.1,
+    ppg: 110.8,
+    oppg: 108.3,
+    rpg: 42.7,
+    apg: 21.9,
     players: [
-      "Russell Westbrook",
       "Dennis Schroder",
-      "Paul George",
-      "Jerami Grant",
       "Steven Adams"
     ]
   },
