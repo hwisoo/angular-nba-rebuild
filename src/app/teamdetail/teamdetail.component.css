@@ -81,7 +81,7 @@ table.table {
 }
 
 .card-img-top {
-  width: 180px;
+  width: 150px;
   border-radius: 50%;
   margin: auto;
   margin-left:9px;
@@ -89,7 +89,7 @@ table.table {
 
 .logo {
   width: 55px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .ATL {
