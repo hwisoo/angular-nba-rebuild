@@ -368,13 +368,12 @@ export const TEAMS: Team[] = [
     img: 'PHX',
     city: 'Phoenix',
     name: 'Suns',
-    ppg: 106.0,
-    oppg: 115.2,
-    rpg: 40.1,
-    apg: 23.8,
+    ppg: 112.6,
+    oppg: 113.9,
+    rpg: 43.1,
+    apg: 27.2,
     players: [
       "Devin Booker",
-      "Jamal Crawford",
       "Kelly Oubre Jr.",
       "Deandre Ayton"
     ]
