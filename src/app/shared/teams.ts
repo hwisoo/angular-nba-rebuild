@@ -354,15 +354,12 @@ export const TEAMS: Team[] = [
     img: 'PHI',
     city: 'Philadelphia',
     name: '76ers',
-    ppg: 115.7,
-    oppg: 111.9,
-    rpg: 47.6,
-    apg: 27.5,
+    ppg: 109.6,
+    oppg: 107.4,
+    rpg: 45.5,
+    apg: 25.9,
     players: [
       "Ben Simmons",
-      "Jimmy Butler",
-      "Corey Brewer",
-      "Winson Chandler",
       "Joel Embiid"
     ]
   },
