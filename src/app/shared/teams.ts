@@ -416,16 +416,15 @@ export const TEAMS: Team[] = [
     img: 'SAS',
     city: 'San Antonio',
     name: 'Spurs',
-    ppg: 111.6,
-    oppg: 109.5,
-    rpg: 44.2,
-    apg: 24.7,
+    ppg: 113.2,
+    oppg: 114.9,
+    rpg: 44.4,
+    apg: 24.5,
     players: [
       "DeMar DeRozan",
       "Patty Mills",
       "Rudy Gay",
       "LaMarcus Aldridge",
-      "Pau Gasol"
     ]
   },
   {
