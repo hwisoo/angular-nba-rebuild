@@ -400,18 +400,15 @@ export const TEAMS: Team[] = [
     img: 'SAC',
     city: 'Sacramento',
     name: 'Kings',
-    ppg: 113.4,
-    oppg: 115.3,
-    rpg: 44.4,
-    apg: 25.9,
+    ppg: 109.0,
+    oppg: 110.9,
+    rpg: 42.5,
+    apg: 23.4,
     players: [
       "Kent Bazemore",
       "Alex Len",
       "De'Aaron Fox",
-      "Iman Shumpert",
-      "Zach Randolph",
       "Harry Giles III",
-      "Willie Cauley-Stein"
     ]
   },
   {
