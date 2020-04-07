@@ -432,15 +432,14 @@ export const TEAMS: Team[] = [
     img: 'TOR',
     city: 'Toronto',
     name: 'Raptors',
-    ppg: 113.8,
-    oppg: 108.2,
-    rpg: 45.0,
-    apg: 24.4,
+    ppg: 113.0,
+    oppg: 106.5,
+    rpg: 45.2,
+    apg: 25.4,
     players: [
       "Kyle Lowry",
       "Fred VanVleet",
       "CJ Miles",
-      "Danny Green",
       "Jonas Valanciunas"
     ]
   },
