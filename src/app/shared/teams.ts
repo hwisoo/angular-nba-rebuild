@@ -448,14 +448,12 @@ export const TEAMS: Team[] = [
     img: 'UTA',
     city: 'Utah',
     name: 'Jazz',
-    ppg: 108.4,
-    oppg: 105.1,
-    rpg: 45.2,
-    apg: 24.8,
+    ppg: 110.0,
+    oppg: 107.9,
+    rpg: 45.1,
+    apg: 22.2,
     players: [
       "Donovan Mitchell",
-      "Ricky Rubio",
-      "Jae Crowder",
       "Derrick Favors",
       "Rudy Golbert"
     ]
