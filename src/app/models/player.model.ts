@@ -4,7 +4,7 @@ export class Player {
   public lname: string;
   public position: string;
   public team: string;
-  public number: number;
+  public number: string;
   public height: string;
   public weight: string;
   public smpg: number;
