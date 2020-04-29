@@ -14,3 +14,7 @@ button {
 #buttonContainer {
   margin-top: 200px;
 }
+
+.btn.btn-lg {
+  margin-bottom: 10px;
+}
